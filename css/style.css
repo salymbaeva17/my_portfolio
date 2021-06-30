@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  position: absolute;
+  top: 60px;
+  right: 119px;
+  width: 100%;
+  z-index: 1111;
+}
+.header__menu {
+  text-align: right;
+}
+.header__link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: 6.33143px;
+  color: #000000;
+  transition: 0.6s;
+  border-bottom: 1px solid transparent;
+}
+.header__link:hover {
+  color: #f7dada;
+  border-bottom: 1px solid #f7dada;
+}
+.header__link:not(:first-child) {
+  margin-left: 66px;
+}
+
+.hero {
+  overflow-x: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.hero__back {
+  z-index: -4;
+  background: #f0efef;
+  position: absolute;
+  width: 1119px;
+  height: 668px;
+  right: 0;
+  top: 0;
+}
+.hero__grid {
+  display: grid;
+  grid-template-columns: 450px 1px 1fr;
+  grid-column-gap: 60px;
+  align-items: center;
+  padding-top: 65px;
+}
+.hero__box {
+  margin-left: 70px;
+}
+.hero__title {
+  font-size: 100px;
+  line-height: 150px;
+  color: #999999;
+}
+.hero__title:nth-child(2) {
+  margin: -10px 0;
+}
+.hero__btn {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 8.29714px;
+  color: rgba(0, 0, 0, 0.6);
+  mix-blend-mode: normal;
+  padding: 40px 49px 37px 40px;
+  background: #FFE8E8;
+  display: inline-block;
+  margin-top: 42px;
+  border: 2px solid transparent;
+  transition: 0.6s;
+}
+.hero__btn:hover {
+  color: white;
+  background: rgba(249, 230, 230, 0.91);
+  border: 2px solid #f8d4d4;
+}
+.hero__border:before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 237px;
+  top: 306px;
+  background: #D8D8D8;
+  margin-left: 27px;
+}
+.hero__desc {
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.385714px;
+  color: #6D6D6D;
+  margin-bottom: 35px;
+  max-width: 559px;
+}
+
+.bx {
+  font-size: 20px;
+}
+
+.socials {
+  display: flex;
+}
+.socials__link {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 6.33143px;
+  color: #000000;
+  padding: 3px;
+  transition: 0.6s;
+  background: transparent;
+}
+.socials__link:hover {
+  color: #f7dada;
+}
+.socials__link:not(:last-child) {
+  margin-right: 46px;
+}
+
+.work {
+  padding-top: 100px;
+}
+.work__row {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.work__trophy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.work__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 33px;
+  letter-spacing: 0.642857px;
+  color: #6D6D6D;
+  margin-bottom: 6px;
+}
+.work__date {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.385714px;
+  color: #7E7C7C;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+.work__desc {
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: 0.385714px;
+  color: #6D6D6D;
+  margin-bottom: 8px;
+}
+.work__with span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 33px;
+  letter-spacing: 0.257143px;
+  color: #968A8A;
+  background: #EDEDED;
+  border-radius: 16px;
+  margin-right: 16px;
+  text-align: center;
+  padding: 9px 14px;
+  transition: 0.6s;
+}
+.work__with span:hover {
+  color: #ffffff;
+  background: #f7dada;
+}
+
+.projects {
+  padding-top: 100px;
+}
+.projects__grid {
+  display: grid;
+  grid-template-columns: 1fr 460px;
+  grid-template-rows: repeat(3, 590px);
+  grid-column-gap: 80px;
+  grid-row-gap: 120px;
+  align-items: center;
+}
+.projects__square {
+  width: 662px;
+  height: 590px;
+  background: rgba(216, 216, 216, 0.22);
+}
+.projects__square:nth-child(even) {
+  margin-left: -234px;
+}
+.projects__title {
+  font-size: 60px;
+  line-height: 90px;
+  letter-spacing: -0.257143px;
+  color: #999999;
+  margin-bottom: 34px;
+}
+.projects__title--second {
+  max-width: 460px;
+  text-align: right;
+}
+.projects__desc {
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: 0.385714px;
+  color: #6D6D6D;
+}
+.projects__desc--second {
+  max-width: 460px;
+  text-align: right;
+}
+
+.about {
+  padding-top: 100px;
+  position: relative;
+}
+.about__desc {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.385714px;
+  color: #6D6D6D;
+  margin-bottom: 60px;
+}
+.about__desc--second {
+  max-width: 547px;
+  margin: 60px 0 35px;
+}
+.about__desc--third {
+  max-width: 1200px;
+}
+.about__contacts {
+  position: absolute;
+  right: 224px;
+  bottom: 445px;
+  width: 430px;
+  height: 276px;
+  background: #FFE8E8;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0 0 40px;
+}
+.about__contacts-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 6.33143px;
+  color: #7E7C7C;
+  mix-blend-mode: normal;
+  opacity: 0.6;
+  margin-bottom: 3px;
+}
+.about__contacts-style {
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.385714px;
+  color: #2E2E2E;
+  transition: 0.6s;
+}
+.about__contacts-style:not(:last-child) {
+  margin-bottom: 18px;
+}
+.about__contacts-style:hover {
+  color: #f5b6b6;
+  box-shadow: inset 5px 7px 20px 1px #ece2e2;
+}
+.about__signature {
+  font-family: "Dancing Script", sans-serif;
+  font-size: 30px;
+  line-height: 76px;
+  letter-spacing: 1.71429px;
+  color: #6D6D6D;
+  margin-top: -20px;
+}
+
+.footer {
+  background: rgba(216, 216, 216, 0.22);
+  text-align: center;
+  padding: 60px 0;
+  margin-top: 100px;
+}
+.footer__info {
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.385714px;
+  z-index: 20;
+  color: #6D6D6D;
+  margin-bottom: 16px;
+}
+.footer__desc {
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.385714px;
+  color: #6D6D6D;
+}
+
+.section__title {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 120px;
+  color: #999999;
+  margin-bottom: 52px;
+}
+
+/*# sourceMappingURL=style.css.map */
