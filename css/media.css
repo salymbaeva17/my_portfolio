@@ -1,0 +1,474 @@
+@media (max-width: 992px) {
+    /*769px - 992px*/
+    .container {
+        max-width: 750px;
+    }
+
+    .header__menu {
+        margin-right: -50px;
+    }
+
+    .header__link {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .header__link:not(:first-child) {
+        margin-left: 35px;
+    }
+
+    .hero__back {
+        width: 632px;
+        height: 565px;
+    }
+
+    .hero__grid {
+        grid-template-columns: 335px 1px 1fr;
+        grid-column-gap: 45px;
+        padding-top: 60px;
+    }
+
+    .hero__box {
+        margin-left: 40px;
+    }
+
+    .hero__title {
+        font-size: 75px;
+        line-height: 115px;
+        color: #999999;
+    }
+
+    .hero__btn {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 7.19714px;
+        padding: 30px 39px 27px 30px;
+        margin-top: 35px;
+    }
+
+    .hero__desc {
+        font-size: 13px;
+        line-height: 25px;
+        margin-bottom: 20px;
+        max-width: 299px;
+    }
+
+    .hero__border:before {
+        height: 254px;
+        top: 252px;
+        margin-left: 13px;
+    }
+
+    .socials__link {
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 5.23143px;
+        padding: 2px;
+    }
+
+    .socials__link:hover {
+        color: #fbd2d2;
+    }
+
+    .socials__link:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    .bx {
+        font-size: 16px;
+    }
+
+    .work {
+        padding-top: 25px;
+    }
+
+    .section__title {
+        font-size: 50px;
+        line-height: 100px;
+        margin-bottom: 10px;
+    }
+
+    .work__title {
+        font-size: 22px;
+        line-height: 45px;
+    }
+
+    .work__date {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .work__details {
+        max-width: 450px;
+    }
+
+    .work__desc {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .work__with span {
+        font-size: 11px;
+        line-height: 20px;
+        margin-right: 12px;
+        padding: 3px 11px;
+    }
+
+    .projects {
+        padding-top: 25px;
+    }
+
+    .projects__grid {
+        grid-template-columns: repeat(2, 360px);
+        grid-template-rows: repeat(3, 450px);
+        grid-gap: 30px;
+    }
+
+    .projects__square {
+        width: 345px;
+        height: 400px;
+    }
+
+    .projects__square:nth-child(even) {
+        margin-left: -14px;
+    }
+
+    .projects__img {
+        width: 345px;
+    }
+
+    .projects__img--second {
+        width: 346px;
+    }
+
+    .projects__info {
+        margin-left: -15px;
+    }
+
+    .projects__info--second {
+        margin-right: 15px;
+    }
+
+    .projects__title {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 24px;
+    }
+
+    .projects__desc {
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 0.385714px;
+        color: #6D6D6D;
+    }
+
+    .projects__btn {
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: 7.29714px;
+        padding: 13px 18px;
+    }
+
+    .projects__btn--second {
+        margin-left: 245px;
+    }
+
+    .about {
+        padding-top: 50px;
+    }
+
+    .about__desc {
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 32px;
+        letter-spacing: 0.385714px;
+        color: #6D6D6D;
+        margin-bottom: 30px;
+    }
+
+    .about__desc--second {
+        max-width: 372px;
+        margin: 30px 0;
+    }
+
+    .about img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .about__contacts {
+        right: 81px;
+        bottom: 400px;
+        width: 273px;
+        height: 225px;
+        padding: 30px 0 0 30px;
+    }
+
+    .about__contacts-title {
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 2px;
+    }
+
+    .about__contacts-style {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .about__signature {
+        font-size: 25px;
+    }
+
+    .footer {
+        padding: 50px 0;
+        margin-top: 50px;
+    }
+
+    .footer__info {
+        font-size: 14px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .footer__desc {
+        font-size: 14px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    /*481px - 768px*/
+
+}
+
+@media (max-width: 480px) {
+    /*320px - 480px*/
+    .header {
+        top: 30px;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .header__menu {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .header__link {
+        font-size: 11px;
+        line-height: 15px;
+        /* text-align: center; */
+    }
+
+    .hero__back {
+        width: 262px;
+        height: 665px;
+    }
+
+    .hero__grid {
+        grid-template-columns: 335px 1px 1fr;
+        grid-template-rows: 285px 2px 1fr;
+        grid-row-gap: 10px;
+        grid-column-gap: 0;
+        padding-top: 0;
+        margin-top: 95px;
+    }
+
+    .hero__box {
+        margin-left: 0;
+    }
+
+    .hero__title {
+        font-size: 45px;
+        line-height: 80px;
+    }
+
+    .hero__btn {
+        font-size: 12px;
+        line-height: 12px;
+        letter-spacing: 4.19714px;
+        padding: 20px 29px 17px 20px;
+        margin-top: 15px;
+    }
+
+    .hero__border {
+        grid-area: 2/1/3/4;
+        width: 86%;
+        border-bottom: 1px solid #D8D8D8;
+    }
+
+    .hero__border:before {
+        height: 1px;
+        width: 290px;
+        top: 440px;
+        margin-left: 0;
+    }
+
+    .hero__info {
+        grid-area: 3/1/4/4;
+    }
+
+    .hero__border:before {
+        display: none
+    }
+
+    .hero__desc {
+        font-size: 12px;
+        line-height: 25px;
+        margin-bottom: 25px;
+        max-width: 299px;
+    }
+
+    .socials__link:not(:last-child) {
+        margin-right: 50px;
+    }
+
+    .socials__link {
+        font-size: 12px;
+        padding: 3px;
+    }
+
+    .section__title {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .work__trophy {
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 40px;
+    }
+
+    .work__box {
+        margin-bottom: 10px;
+    }
+
+    .work__title {
+        font-size: 18px;
+        line-height: 31px;
+    }
+
+    .work__date {
+        font-size: 13px;
+        line-height: 13px;
+    }
+
+    .work__desc {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .projects__grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects__square {
+        width: 300px;
+        height: 350px;
+    }
+
+    .projects__img {
+        width: 285px;
+    }
+
+    .projects__info {
+        margin-left: 0;
+    }
+
+    .projects__title {
+        font-size: 25px;
+        line-height: 27px;
+        margin-bottom: 10px;
+    }
+
+    .projects__desc {
+        font-size: 12px;
+        line-height: 28px;
+    }
+
+    .projects__btn {
+        font-size: 12px;
+        line-height: 14px;
+        padding: 10px 15px;
+    }
+
+    .projects__info--second {
+        max-width: 285px;
+    }
+
+    .projects__btn--second {
+        margin-left: 191px;
+    }
+
+    .projects__square:nth-child(even) {
+        margin-left: 0;
+    }
+
+    .projects__img--second {
+        width: 300px;
+    }
+
+    .about {
+        padding-top: 25px;
+    }
+
+    .about__desc {
+        font-size: 12px;
+        line-height: 30px;
+        margin-bottom: 25px;
+    }
+
+    .about img {
+        height: 118px;
+        object-fit: cover;
+    }
+
+    .about__desc--second {
+        margin: 110px 0 20px;
+    }
+
+    .about__contacts-style:not(:last-child) {
+        margin-bottom: 15px;
+    }
+
+    .about__contacts-style {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .about__contacts-title {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .about__contacts {
+        right: 25px;
+        bottom: 805px;
+        width: 205px;
+        height: 165px;
+        padding: 20px 0 0 20px;
+    }
+
+    .about__signature {
+        line-height: 50px;
+        font-size: 15px;
+    }
+    .footer {
+        padding: 40px 0;
+        margin-top: 40px;
+    }
+    .footer__info {
+        font-size: 12px;
+        line-height: 25px;
+        max-width: 215px;
+        margin: 0 auto 5px;
+    }
+    .footer__desc {
+        font-size: 12px;
+        line-height: 25px;
+    }
+}
