@@ -218,12 +218,35 @@ html {
   align-items: center;
 }
 .projects__square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 662px;
   height: 590px;
   background: rgba(216, 216, 216, 0.22);
 }
 .projects__square:nth-child(even) {
   margin-left: -234px;
+}
+.projects__img {
+  width: 630px;
+}
+.projects__img--second {
+  width: 662px;
+}
+.projects__btn {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 8.29714px;
+  color: rgba(153, 153, 153, 0.8);
+  background: #FFE8E8;
+  padding: 15px 20px;
+  margin-top: 15px;
+  display: inline-block;
+}
+.projects__btn--second {
+  margin-left: 315px;
 }
 .projects__title {
   font-size: 60px;
@@ -308,6 +331,7 @@ html {
   letter-spacing: 1.71429px;
   color: #6D6D6D;
   margin-top: -20px;
+  padding: 0;
 }
 
 .footer {
