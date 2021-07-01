@@ -258,7 +258,6 @@
     .header__link {
         font-size: 11px;
         line-height: 15px;
-        /* text-align: center; */
     }
 
     .hero__back {
@@ -447,7 +446,7 @@
 
     .about__contacts {
         right: 25px;
-        bottom: 805px;
+        bottom: 770px;
         width: 205px;
         height: 165px;
         padding: 20px 0 0 20px;
@@ -465,10 +464,10 @@
         font-size: 12px;
         line-height: 25px;
         max-width: 215px;
-        margin: 0 auto 5px;
+        margin: 0 auto 10px;
     }
     .footer__desc {
-        font-size: 12px;
+        font-size: 10px;
         line-height: 25px;
     }
 }
